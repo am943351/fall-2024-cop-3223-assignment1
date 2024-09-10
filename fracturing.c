@@ -132,7 +132,9 @@ double calculateHeight()
 int askForUserInput()
 {
     double userInput; 
-    printf("Enter a value:");
     scanf("%lf", &userInput);
     return userInput;
 }
+
+// Calculates distance WITHOUT printing the distance to 
+// ensure only 3 lines of output for other functions
