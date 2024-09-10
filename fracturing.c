@@ -135,6 +135,3 @@ int askForUserInput()
     scanf("%lf", &userInput);
     return userInput;
 }
-
-// Calculates distance WITHOUT printing the distance to 
-// ensure only 3 lines of output for other functions
